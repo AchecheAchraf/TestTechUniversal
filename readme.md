@@ -19,12 +19,12 @@ Ce projet propose un service d'extraction de texte à partir d'images avec une o
 2. **Installez les dépendances avec npm ou yarn :
    ```sh
    npm install
-
+   ```
    ou 
-
+   
    ```sh
    yarn install
-
+   
 3. **Démarrez le serveur de développement :
    ```sh
    npm run dev
@@ -41,11 +41,10 @@ L'application frontend sera disponible à l'adresse suivante : http://localhost:
    python -m venv venv
 
 3. Activez l'environnement virtuel :
-   - Sur Windows :
+ - Sur Windows :
    ```sh
    venv\Scripts\activate
-
-   - Sur macOS et Linux : 
+ - Sur macOS et Linux : 
    ```sh
    source venv/bin/activate
 
@@ -66,5 +65,6 @@ L'API backend sera disponible à l'adresse suivante : http://localhost:5000.
 
 ### Technologies Utilisées
    **- Frontend :** Vue.js, Vuetify
+
    **- Backend :** Flask, Tesseract (pour l'extraction de texte), gTTS (pour la conversion texte en parole)
 

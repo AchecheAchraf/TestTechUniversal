@@ -19,6 +19,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.0",
     "cross-env": "^7.0.3",
+    "gh-pages": "^6.1.1",
     "sass": "^1.69.0",
     "unplugin-fonts": "^1.1.0",
     "unplugin-vue-components": "^0.26.0",

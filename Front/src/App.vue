@@ -6,8 +6,8 @@
         <v-row justify="center">
           <v-col cols="12" md="8">
             <!-- Card for the main content -->
-            <v-card class="content-card">
-              <h1 class="mb-4">Extracteur de Texte d'Image</h1>
+            <v-card class="content-card" style="border: 1px solid black;">
+              <h1 class="mb-4">Extracteur de Texte</h1>
               <!-- Include the ImageUpload component -->
               <ImageUpload />
             </v-card>
