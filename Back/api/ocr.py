@@ -5,7 +5,7 @@ import pytesseract
 ocr_route = Blueprint('ocr', __name__)
 
 # Update the path to the tesseract executable if necessary
-pytesseract.pytesseract.tesseract_cmd = r'../tesseract/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'./tesseract/tesseract.exe'
 
 @ocr_route.route('/api/ocr', methods=['POST'])
 def ocr():

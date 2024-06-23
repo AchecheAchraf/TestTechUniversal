@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
-from ocr import ocr_route
-from text_to_speech import tts_route
+from api.ocr import ocr_route
+from api.text_to_speech import tts_route
 
 app = Flask(__name__)
 CORS(app)
